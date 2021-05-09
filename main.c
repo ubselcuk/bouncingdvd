@@ -23,7 +23,7 @@ int main(void)
     Image dvdimage3 = LoadImage("files/3.png");
     a[2] = LoadTextureFromImage(dvdimage3);
     UnloadImage(dvdimage3);
-
+    
     Image dvdimage4 = LoadImage("files/4.png");
     a[3] = LoadTextureFromImage(dvdimage4);
     UnloadImage(dvdimage4);
